@@ -10,7 +10,7 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   const navItems = [
-    { href: '#features', label: 'Features' },
+    // { href: '#features', label: 'Features' },
     { href: '/showcase', label: 'Projects' },
     { href: '/about-ssoc', label: 'SSoC\'26' },
     { href: '/mentors', label: 'Mentors' },
@@ -71,7 +71,7 @@ export function Navigation() {
             whileTap={{ scale: 0.95 }}
             className="hidden md:block ml-4"
           >
-            <Link href="/showcase">
+            <Link href="https://github.com/abhisek2004/62Days-CodeSprint-WebDev-Challenge" target="_blank">
               <button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all">
                 Explore
               </button>
@@ -98,11 +98,16 @@ export function Navigation() {
               </Link>
             ))}
             <div className="px-4 pt-2">
-              <Link href="/showcase" onClick={() => setIsOpen(false)}>
-                <button className="w-full px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all">
-                  Explore Projects
+              <a
+                href="https://github.com/abhisek2004/62Days-CodeSprint-WebDev-Challenge"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setIsOpen(false)}
+              >
+                <button className="w-full px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105">
+                  🚀 Explore Projects
                 </button>
-              </Link>
+              </a>
             </div>
           </motion.div>
         )}

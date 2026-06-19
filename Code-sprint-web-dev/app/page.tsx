@@ -13,7 +13,7 @@ export default function Page() {
       <Navigation />
       <main className="relative min-h-screen">
         <Hero />
-        
+
         {/* Features Section */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 border-t border-white/10">
           <div className="max-w-7xl mx-auto">
@@ -107,9 +107,13 @@ export default function Page() {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <a href="/showcase">
-                  <button className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all">
-                    Explore All Projects
+                <a
+                  href="https://github.com/abhisek2004/62Days-CodeSprint-WebDev-Challenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="px-8 py-4 bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105 flex items-center gap-2">
+                    🚀 Explore All Projects
                   </button>
                 </a>
               </motion.div>

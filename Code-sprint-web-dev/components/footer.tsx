@@ -19,26 +19,27 @@ export function Footer() {
     {
       title: 'Learn',
       links: [
-        { label: 'Documentation', href: '#' },
-        { label: 'Guidelines', href: '/contribute' },
-        { label: 'Resources', href: '#' },
-        { label: 'FAQ', href: '#' },
+        // { label: 'Learn', href: '/learn' },
+        { label: 'Documentation', href: '/documentation' },
+        { label: 'Guidelines', href: '/guidelines' },
+        { label: 'Resources', href: '/resources' },
+        { label: 'FAQ', href: '/faq' },
       ],
     },
     {
       title: 'Community',
       links: [
-        { label: 'GitHub', href: 'https://github.com' },
-        { label: 'Discord', href: '#' },
-        { label: 'Twitter', href: '#' },
-        { label: 'LinkedIn', href: '#' },
+        { label: 'GitHub', href: 'https://github.com/abhisek2004' },
+        { label: 'Discord', href: 'https://discord.gg/abhisek2004panda_' },
+        { label: 'X', href: 'https://x.com/ABHISEK_2003' },
+        { label: 'LinkedIn', href: 'https://www.linkedin.com/in/abhisekpanda2004/' },
       ],
     },
     {
       title: 'Legal',
       links: [
-        { label: 'Privacy', href: '#' },
-        { label: 'Terms', href: '#' },
+        { label: 'Privacy', href: '/privacy' },
+        { label: 'Terms', href: '/terms' },
         { label: 'Disclaimer', href: '/disclaimer' },
         { label: 'About', href: '/about' },
       ],

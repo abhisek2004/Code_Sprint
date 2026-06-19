@@ -120,11 +120,18 @@ export function Hero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Link href="/showcase">
-                <button className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-bold text-lg hover:shadow-2xl hover:shadow-purple-500/50 transition-all w-full sm:w-auto">
-                  🚀 Explore Projects
-                </button>
-              </Link>
+              <div className="px-4 pt-2">
+                <a
+                  href="https://github.com/abhisek2004/62Days-CodeSprint-WebDev-Challenge"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => setIsOpen(false)}
+                >
+                  <button className="w-full px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-full font-medium hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105">
+                    🚀 Explore Projects
+                  </button>
+                </a>
+              </div>
             </motion.div>
 
             <motion.div
