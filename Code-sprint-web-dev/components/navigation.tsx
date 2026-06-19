@@ -27,9 +27,13 @@ export function Navigation() {
             <motion.div
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              className="w-8 h-8 bg-gradient-to-br from-purple-500 to-pink-500 rounded-lg flex items-center justify-center text-white font-bold"
+              className="w-8 h-8 rounded-lg flex items-center justify-center overflow-hidden"
             >
-              CS
+              <img
+                src="/Image.png"
+                alt="CodeSprint Logo"
+                className="w-full h-full object-contain"
+              />
             </motion.div>
             <span className="hidden sm:inline bg-gradient-to-r from-purple-500 to-pink-500 bg-clip-text text-transparent">
               CodeSprint
